@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Schema for GET requests from /listings endpoint",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "max_price": {
+      "type": "number",
+      "description": "The maximum price a house listing can be."
+    },
+    "min_price": {
+      "type": "number",
+      "description": "The minimum price a house listing can be."
+    },
+    "min_bed": {
+      "type": "number",
+      "description": "The minimum number of beds the house must have."
+    },
+    "max_bed": {
+      "type": "number",
+      "description": "The maximum number of beds the house must have."
+    },
+    "min_bath": {
+      "type": "number",
+      "description": "The minimum number of bathrooms the house must have."
+    },
+    "max_bath": {
+      "type": "number",
+      "description": "The maximum number of bathrooms the house must have."
+    }
+  }
+}

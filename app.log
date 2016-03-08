@@ -1,0 +1,82 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 865-229-382
+INFO:werkzeug: * Detected change in '/Users/litacho/Development/opendoor/app.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2016 21:50:43] "GET /listings HTTP/1.1" 200 -
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:app:Exception on /listings [GET]
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1478, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1566, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:app:Exception on /listings [GET]
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1478, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1566, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:app:Exception on /listings [GET]
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1478, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Users/litacho/Development/opendoor/venv/lib/python2.7/site-packages/flask/app.py", line 1566, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 30, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 27, in get_listings
+    try:
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
+ERROR:routes:query params were not a number. params: {} error ValueError("invalid literal for int() with base 10: 'not_number'",)
+Traceback (most recent call last):
+  File "/Users/litacho/Development/opendoor/routes.py", line 29, in get_listings
+    args[key] = int(value)
+ValueError: invalid literal for int() with base 10: 'not_number'
