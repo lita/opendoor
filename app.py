@@ -14,9 +14,7 @@ def create_app():
     app = Flask(__name__)
 
     app.config["MONGODB_SETTINGS"] = {
-        "db": getenv("MONGO_DB", "house_posting_data"),
-        "host": getenv("MONGO_HOST", None),
-        "port": getenv("MONGO_PORT", None),
+        "host": getenv("MONGOLAB_URI", None),
     }
     app.config["SECRET_KEY"] = "KeepThisS3cr3t"
 
