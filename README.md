@@ -29,7 +29,7 @@ py.test tests/
 I ended up using Flask with Blueprints, JSON Schema for validation, and MongoDB as my datastore. I like Flask with Blueprints, as the routing maps directly onto the function call. I also like JSON Schema, because the [json file](https://github.com/lita/opendoor/blob/master/schema/listings.json) acts like an API documentation. I ended up using MongoDB for the sake of ramp up time. I am familiar with it, and it was really quick to set up. MongoDB also has a geospatial indexes, which might be a useful feature for querying locations of the houses.
 
 ## Future Work
-If I had more time, I would love to work on pagniation of the results, since the endpoint is super slow as it is querying a lot of data.
+If I had more time, I would love to work on pagniation of the results. This would be the highest priority, as the endpoint is really slow. The server is querying and returning a lot of data and definitely not scalable at its current state.
 
 Secondly, I would like to add a neaby feature, where you can give it a lat/lng and a radius, and it will return houses near that area.
 
