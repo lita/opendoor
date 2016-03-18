@@ -1,5 +1,5 @@
 # Listings API
-I createad an endpoint that returns a list of GeoJSON objects based on the filters given. The project is deployed on [Heroku](https://lita-listing-app.herokuapp.com). Here is a sample url: https://lita-listing-app.herokuapp.com/listings?min_bed=3&max_bed=5&min_bath=3&max_price=200000
+I createad an endpoint that returns a list of GeoJSON objects based on the filters given. The project is deployed on [Heroku](https://lita-listing-app.herokuapp.com/listings). Here is a sample url: https://lita-listing-app.herokuapp.com/listings?min_bed=3&max_bed=5&min_bath=3&max_price=200000
 
 It took me a total of 4 hours to get everything working, with unit tests. Unfortunately, setting up Heroku took more time than expected, as I am not familar with it.
 
